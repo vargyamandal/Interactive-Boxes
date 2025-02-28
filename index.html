@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Boxes</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <!-- Top Box -->
+    <div class="box" id="box1">
+      <div class="box-content">
+        <h2>Box 1</h2>
+        <div class="options hidden">
+          <label for="color1">Color:</label>
+          <input type="color" id="color1" value="#ff0000">
+          <label for="size1">Size:</label>
+          <input type="range" id="size1" min="100" max="300" value="100">
+        </div>
+      </div>
+    </div>
+
+    <!-- Middle Box -->
+    <div class="box" id="box2">
+      <div class="box-content">
+        <h2>Box 2</h2>
+        <div class="options hidden">
+          <label for="color2">Color:</label>
+          <input type="color" id="color2" value="#00ff00">
+          <label for="size2">Size:</label>
+          <input type="range" id="size2" min="100" max="300" value="100">
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Box -->
+    <div class="box" id="box3">
+      <div class="box-content">
+        <h2>Box 3</h2>
+        <div class="options hidden">
+          <label for="color3">Color:</label>
+          <input type="color" id="color3" value="#0000ff">
+          <label for="size3">Size:</label>
+          <input type="range" id="size3" min="100" max="300" value="100">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
